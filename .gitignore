@@ -1,0 +1,20 @@
+# 忽略 Java 编译的 class 文件
+*.class
+
+# 忽略 VS Code、Eclipse、IntelliJ IDEA 产生的文件
+.vscode/
+.idea/
+*.iml
+
+# Mac / Windows 生成的垃圾文件
+.DS_Store
+Thumbs.db
+
+# 忽略 Java 的 target 目录（如果你有用 Maven/Gradle）
+target/
+
+# 忽略 Python 的缓存文件（如果你也刷 Python）
+__pycache__/
+
+# 忽略日志文件
+*.log
